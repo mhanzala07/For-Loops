@@ -15,22 +15,22 @@ for (let i = 1; i <= 10; i++){
 // Question # 3
 // Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input form user.
 
-// let userInput = prompt ('Enter Table Number')
-// let time = prompt ('How many time do you want?')
-// for (let i = 1; i <= 10; i++){
-//     console.log(`${userInput} * ${i} = ${userInput*i}`);
-// }
+let userInput = prompt ('Enter Table Number')
+let time = prompt ('How many time do you want?')
+for (let i = 1; i <= 10; i++){
+    console.log(`${userInput} * ${i} = ${userInput*i}`);
+}
 
 // Question # 4
 // You have an array A = ["Nokia" , "Samsung" , "Apple" , "Sony" , "Huawei"] Write each element on new line with the help of for loop.
 
-// let brand = ["Nokia" , "Samsung" , "Apple" , "Sony" , "Huawei"]
-// console.log(brand);
-// let ul = document.querySelector('ul');
-// for (let i = 0; i < brand.length; i++){
-//     console.log(brand[i]);
-//     ul.innerHTML += `<li>${brand[i]} </li>`
-// }
+let brand = ["Nokia" , "Samsung" , "Apple" , "Sony" , "Huawei"]
+console.log(brand);
+let ul = document.querySelector('ul');
+for (let i = 0; i < brand.length; i++){
+    console.log(brand[i]);
+    ul.innerHTML += `<li>${brand[i]} </li>`
+}
 
 // Question # 5
 // Write a program to print items of the following arraw using for loop:
